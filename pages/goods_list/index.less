@@ -1,0 +1,31 @@
+.first_tab{
+    .goods_item{
+        display: flex;
+        border-bottom: 1px solid #ccc;
+        .goods_img_wrap{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 2;
+            image{
+                width: 70%;
+            }
+        }
+        .goods_info_wrap{
+            display: flex;
+            flex-direction: column; // 设置主轴方向为列 默认是row行
+            justify-content: space-around; // 空白环绕
+            flex: 3;
+            .goods_name{
+                display: -webkit-box;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+            }
+            .goods_price{
+                color: var(--themeColor);
+                font-size: 32rpx;
+            }
+        }
+    }
+}

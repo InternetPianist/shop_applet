@@ -1,0 +1,102 @@
+page{
+    padding-bottom: 90rpx;
+}
+.detail_swiper{
+    swiper{
+        // 一比一关系 高度等于视口宽度
+        height: 70vw;
+        border: 1px solid red;
+        text-align: center;
+    }
+    image{
+        width: 60%;
+    }
+}
+.goods_price{
+    color: var(--themeColor);
+    font-size: 32rpx;
+    padding: 15rpx;
+}
+.goods_name_row{
+    border-top: 5rpx solid #dadada;
+    border-bottom: 5rpx solid #dadada;
+    padding: 10rpx 0;
+    display: flex;
+    .goods_name{
+        flex: 5;
+        color: #000;
+        font-size: 30rpx;
+        padding: 0 10rpx;
+
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .goods_collect{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-left: 1rpx solid #000;
+        .icon-favorites2 {
+            color: orangered;
+        }
+    }
+}
+.goods_info{
+    .goods_info_title{
+        font-size: 32rpx;
+        color: var(--themeColor);
+        font-weight: 600;
+        padding: 20rpx;
+    }
+}
+.btm-tool {
+    border: 1rpx solid #ccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90rpx;
+    background-color: #fff;
+    display: flex;
+    .tool-item{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 24rpx;
+        position: relative;
+        button{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+    }
+    .btn_cart{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #FFA500;
+        font-size: 24rpx; 
+    }
+    .btn_buy{
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #EB4450;
+        font-size: 30rpx;
+    }
+}

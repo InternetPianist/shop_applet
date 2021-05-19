@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "pages/index/index", 
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goos_detail/index", 
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+  ],
+  
+  "window":{
+    "backgroundTextStyle":"light",
+    
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "优品购物",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "icons/category.png",
+        "selectedIconPath": "icons/category_active.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "icons/cart.png",
+        "selectedIconPath": "icons/cart_active.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icons/user.png",
+        "selectedIconPath": "icons/user_active.png"
+      }
+    ],
+    "color": "#2c2c2c",
+    "selectedColor": "#DC143C"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
