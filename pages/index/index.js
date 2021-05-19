@@ -1,5 +1,6 @@
 // 0 引入 用来发送请求的 方法 一定要把路径补全
 import { request } from '../../request/index.js'
+// 引入runtime解决不支持async await语法
 import regeneratorRuntime from '../../lib/runtime/runtime';
 Page({
 
